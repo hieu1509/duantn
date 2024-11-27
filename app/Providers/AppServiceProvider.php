@@ -43,7 +43,7 @@ class AppServiceProvider extends ServiceProvider
         });
 
 
-        // Tạo các vai trò và phân quyền
+        // // Tạo các vai trò và phân quyền
         $adminRole = Role::firstOrCreate(['name' => 'admin']);
         Permission::firstOrCreate(['name' => 'access admin panel']);
 
